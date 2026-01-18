@@ -1,5 +1,9 @@
 # bufswi.nvim
 
+<a href="https://dotfyle.com/plugins/zeroicey/bufswi.nvim">
+	<img src="https://dotfyle.com/plugins/zeroicey/bufswi.nvim/shield?style=for-the-badge" />
+</a>
+
 Lightweight buffer switcher for Neovim. Opens a centered floating window listing your "listed" buffers (ordered by last used), with simple, ergonomic keys to move, select, and close. Minimal surface, no dependencies.
 
 ![Bufswi preview](docs/preview.gif)

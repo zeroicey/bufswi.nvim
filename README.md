@@ -2,7 +2,7 @@
 
 Lightweight buffer switcher for Neovim. Opens a centered floating window listing your "listed" buffers (ordered by last used), with simple, ergonomic keys to move, select, and close. Minimal surface, no dependencies.
 
-– Repository: https://github.com/zeroicey/bufswi.nvim
+![Bufswi preview](docs/preview.gif)
 
 ## Features
 - Centered floating window with adjustable `width`/`height` and `border`.
@@ -19,11 +19,10 @@ Add the spec to your lazy.nvim plugin list. Lazy will call `require("bufswi").se
 
 ```lua
 {
-	-- 1) Point to your GitHub repo
 	"zeroicey/bufswi.nvim",
 
-	-- 2) Lazy-load on a key: only loads when pressing <leader><Tab>
-	--    This keeps startup fast
+	-- Lazy-load on a key: only loads when pressing <leader><Tab>
+	-- This keeps startup fast
 	keys = {
 		{
 			"<leader><Tab>", -- <leader> is often Space by default
@@ -34,8 +33,8 @@ Add the spec to your lazy.nvim plugin list. Lazy will call `require("bufswi").se
 		},
 	},
 
-	-- 3) Options passed to setup()
-	--    Lazy will automatically call require("bufswi").setup(opts)
+	-- Options passed to setup()
+	-- Lazy will automatically call require("bufswi").setup(opts)
 	opts = {
 		-- Window appearance
 		width = 60,

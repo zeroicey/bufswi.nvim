@@ -1,3 +1,5 @@
+
+
 # bufswi.nvim
 
 <a href="https://dotfyle.com/plugins/zeroicey/bufswi.nvim">
@@ -43,7 +45,7 @@ Add the spec to your lazy.nvim plugin list. Lazy will call `require("bufswi").se
 		-- Window appearance
 		width = 60,
 		height = 10,
-		border = "rounded", -- options: 'single', 'double', 'rounded', 'solid', 'shadow'
+		border = "rounded", -- options: 'single', 'double', 'rounded', 'solid', 'shadow', 'none'
 		highlight_group = "Normal", -- background highlight group for the window
 		current_highlight = "Visual", -- highlight group for the selected line
 
@@ -118,4 +120,3 @@ Issues and PRs are welcome. Please keep changes small and focused.
 
 ## License
 MIT. See `LICENSE`.
-
